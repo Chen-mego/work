@@ -1,0 +1,49 @@
+img{
+    object-fit: cover;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+.active {
+background-color: #4CAF50;
+}
+.div1
+{
+	width:1200px;
+	height:400px;
+	background-image: linear-gradient(to right, rgba(84, 5, 5, 0), rgb(0, 145, 255));
+	box-shadow: 10px 10px 5px #7c3838;
+    margin: auto;
+    
+}
+body 
+{
+	background-image:url('https://t7.baidu.com/it/u=922000132,896858630&fm=193&f=GIF');
+	background-color:#cccccc;
+}
+
+
+

@@ -1,0 +1,50 @@
+img{
+    object-fit: cover;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #333;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover:not(.active) {
+background-color: #111;
+}
+.active {
+background-color: #4CAF50;
+}
+#topbackground{
+    background-color:#b2c7e2;
+}
+.div-yachi{
+    background-color: lightgrey;
+    width: 800px;
+    border: 25px solid green;
+    padding: 25px;
+    margin: 25px;
+    font-size: 5px;
+}
+.imgg{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    right: 100px;
+    top: 500px;
+}

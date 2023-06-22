@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>菜鸟教程(runoob.com)</title>
+<link rel="stylesheet" href="/zongjie.css">
+</head>
+<div>
+    <header>       
+        <ul>
+            <li><a  href="/index.html">主页</a></li>
+            <li><a  href="/web1.html">猫咪介绍</a></li>
+            <li><a  href="/web2.html">主要猫咪品种</a></li>
+            <li><a  href="/web3.html">哪些适合家猫养以及价格介绍</a></li>
+            <li><a href="/web4.html">我喜欢的猫咪品种</a></li>
+            <li><a class="active" href="/zongjie.html">总结</a></li>
+            </ul>
+    </header>
+</div>
+<body>
+    <br>
+    <br>
+   <h1 style="text-align: center;">Web应用基础</h1>
+<h2>做的什么？</h2>
+<p>我做的网页是有关于猫咪的题材，意在普及猫咪的相关信息，并且由于自己喜欢猫咪嘛，所以也给看这个网页的人展示我的喜好</p>
+<h2>开发过程</h2>
+<p>利用VS code建网页，并采用了html建css和bootstrap美化，javascrip创建行为进行开发</p>
+<h3>遇到的问题以及如何解决</h3>
+<p>首页图片轮播如何实现：四个图片的重叠方法object-fit 属性对图片的重叠以实现图片的阴去和下个图片的出现轮播</p>
+<p>图片向后轮播到结尾如何回到第一个图片实现无限循环：javascrip利用function函数设置if，while循环，条件当index到图片长度至0实现循环</p>
+<p>导航栏如何垂直：我引用了bootstrap，不得不说是真好用，class .nav-stacked实现导航栏垂直，我们根本不需要写代码</p>
+<p>在一个页面如何能选择查看多种猫咪：之前想了半天，发现利用导航栏可以实现，只不过设置href地址罢了</p>
+<p>实现框架背景颜色渐变，不改变body总背景：background-image: linear-gradients后跟两种颜色，旨在从你设置的前一个颜色渐变到后一个颜色</p>
+<p>导航栏嵌入logo:navbar-brand可在导航栏显示logo只需img地址就可，bootstrap确实好用</p>
+<h2>未解决</h2>
+<p>如何实现动画效果、如何镶嵌视频、如何镶嵌音乐播放器</p>
+<p>本来想搞个搜索栏的，但不知道怎么从搜索的东西显示出相关内容</p>
+<h2>总结</h2>
+<p>学会html，css，bootstrap，了解基本web前端开发
+    ，这里我特别说说bootstrap，现代开发网页很多都是利用它实现的，可见它设计出来的网页是高级的，精美的，同时它给我们带来了很多简便的方法，我们只用引用相应的class，甚至设置大小它也有很多class可以直接引用
+    但可惜的是响应式网页并没有完成，同时我设计的基本网页也比较简陋，希望在以后的学习中能够设计出更精美的网页。
+</p>
+</body>
+</html>
